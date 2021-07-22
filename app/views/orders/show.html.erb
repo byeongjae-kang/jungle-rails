@@ -20,7 +20,7 @@
         </thead>
         <tbody>
           <% @order.line_items.where(order_id: @order.id).each do |item| %>
-            <%= render 'item', product: Product.find(item[:product_id]), quantity: item[:quantity].to_i %>
+            <%= render 'item', product: item.product, quantity: item.quantity.to_i %>
           <% end %>
         </tbody>
         <tfoot>
