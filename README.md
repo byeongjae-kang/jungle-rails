@@ -1,6 +1,14 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of learning Rails.
+
+## Product Views
+
+!["Home Page"](https://github.com/byeongjae-kang/jungle-rails/blob/master/docs/home_page.png)
+!["Admin Products Page"](https://github.com/byeongjae-kang/jungle-rails/blob/master/docs/admin_products_page.png)
+!["Admin New Product Page"](https://github.com/byeongjae-kang/jungle-rails/blob/master/docs/admin_new_product_page.png)
+!["Checkout"](https://github.com/byeongjae-kang/jungle-rails/blob/master/docs/checkout.png)
+
 
 ## Additional Steps for Apple M1 Machines
 
@@ -22,7 +30,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Stripe Testing
 
-Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
+Use Credit Card # 4242 4242 4242 4242 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
@@ -31,3 +39,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 - PostgreSQL 9.x
 - Stripe
+- Bcrypt
+- Money-rails
+- Rspec
+- Capybara
+- Poltergeist
+- Database_cleaner
+..., more
